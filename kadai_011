@@ -1,10 +1,9 @@
 array = [ "水", "金", "地", "火",  "木",  "土",  "天",  "海", "冥"]
-for array in array:
-    print(array)
+for item in array: 
+    print(item)
 
-array = ["水", "金", "地", "火", "木", "土", "天", "海", "冥"]
+array = ["水", "金", "地", "火", "木", "土", "天", "海","冥"]
 i = 0
-while array[i] != "冥":
+while i < len(array): 
     print(array[i])
-    i += 1
-
+    i = i +  1
