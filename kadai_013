@@ -1,7 +1,13 @@
-def calculata_total(price, tax):
-    tax = price * 0.1
-    total = price + tax
-    print(f"{price}円")
-    print(f"税込み{total}円")
+price = 100
+tax = 0.1
 
-calculata_total(1000,0.1)
+def total():
+    return price
+
+print(price)
+
+def total():
+    return price * tax
+
+print(price + total())
+
