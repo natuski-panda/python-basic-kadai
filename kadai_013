@@ -1,12 +1,13 @@
-price = 100
-tax = 1.1
+price = 200
+tax = 0.1
 
-def total():
+def total(price):
     return price
 
 print(price)
 
-def total2():
+def total(price):
     return price * tax
 
-print(total2())
+print(total(price))
+
